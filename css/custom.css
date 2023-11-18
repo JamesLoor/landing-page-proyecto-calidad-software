@@ -692,6 +692,8 @@ i {
   transition: 0.4s;
 }
 #portfolioSection .portfolio-box .img-box .img-fluid {
+  object-fit: cover;
+  object-position: center;
   width: -webkit-fill-available !important;
   height: -webkit-fill-available !important;
 }
